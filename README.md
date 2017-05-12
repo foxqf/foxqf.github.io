@@ -1,30 +1,50 @@
-# 一个会动的简历模板
+## resume-native
 
-> This is my resume
+> 个人简历原生实现版本
 
-[预览](https://jirengu-inc.github.io/animating-resume/dist/)
+## 预览
 
-## 使用方法
+[预览](https://qianlongo.github.io/resume-native/dist/)
 
-``` bash
-git clone git@github.com:jirengu-inc/animating-resume.git
-cd animating-resume
-npm install
-npm run dev
+## 异步流程控制说明
+
+> 可以切换到以下不同的分支来查看，简历生成过程中异步流程控制解决方案
+
+1. master(使用回调函数处理)
+2. promise(使用promise处理)
+3. generator-thunk(使用generator + thunk函数处理)
+4. generator-promise(使用generator + promise处理)
+5. async(使用async处理)
+
+
+## install
+
+```javascript
+yarn i
+
 ```
 
-## 部署方法
+## run
 
+```javascript
+npm run dev
 
-1. 编辑 config/index.js，修改第 10 行的 assetsPublicPath，值为 `项目名/dist`。如果你没有修改项目名 animating-resume，则可跳过此步骤。
+```
 
-2. 编译、上传
-    ``` bash
-    npm run build
-    git add .
-    git commit -m "update"
-    git push
-    ```
+## preview
 
-3. 开启 GitHub Pages 功能
+```javascript
+localhost:8080
 
+or
+
+127.0.0.1:8080
+
+```
+
+## build
+
+```javascript
+npm run build
+
+```
