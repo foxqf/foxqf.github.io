@@ -1,1 +1,0 @@
-# foxqf.github.io
